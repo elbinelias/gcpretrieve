@@ -1,0 +1,3 @@
+curl -X POST "https://j4d9fds46b.execute-api.ap-southeast-2.amazonaws.com/dev/gcp" -d '{"userId":"043323129","name":"michelerisa","gcpid":"043323129","endtoendid":"20221025ANZBIDJX010O0120571855","remittanceinfo":"Invoice ref 2123 payment","clientref":"myref1232","amount":"5003.00","status":"Processed"}' -H "Content-Type: application/json"
+
+curl -X GET "https://j4d9fds46b.execute-api.ap-southeast-2.amazonaws.com/dev/gcp/043323129" -H "Content-Type: application/json"
